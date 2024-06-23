@@ -1,14 +1,36 @@
 import React from 'react';
 import { Flip, Hinge, JackInTheBox, Roll, Rotate, Slide } from 'react-awesome-reveal';
-import { FaCode, FaDatabase, FaTools, FaLanguage, FaCogs } from 'react-icons/fa';
+import { FaCode, FaDatabase, FaTools, FaLanguage, FaCogs,FaRegLightbulb } from 'react-icons/fa';
 import { GiSkills } from 'react-icons/gi';
 import { TbCodeDots } from 'react-icons/tb';
-
+import { SiCodeforces,SiCodechef,SiLeetcode } from "react-icons/si";
+import { GoCodeReview } from "react-icons/go";
 const Skills = () => {
     // console.log(theme);
     return (
         <div className="section skills-section mx-4 md:mx-10 lg:mx-14 mb-20" id="skills">
             <h2 className="hover:text-blue-600 text-xl text-center md:text-[40px] text-cyan-400 font-bold mb-10"> Skills  </h2>
+            <h1 className="text-center">I solved almost 800+ problem in various judge such links</h1>
+            <div className="flex justify-center items-center mt-2 space-x-6 mb-20">
+                <a href="https://codeforces.com/profile/nafis2000" target="_blank" rel="noopener noreferrer" className="text-3xl text-blue-600">
+                <SiCodeforces />
+                </a>
+                <a href="https://www.codechef.com/users/nafis2000" target="_blank" rel="noopener noreferrer" className="text-3xl text-red-600">
+                <SiCodechef />
+                </a>
+                <a href="https://atcoder.jp/users/nafis2000?contestType=algo" target="_blank" rel="noopener noreferrer" className="text-3xl text-gray-800">
+                <GoCodeReview />
+                </a>
+                <a href="https://lightoj.com/user/nafis2001" target="_blank" rel="noopener noreferrer" className="text-3xl text-blue-800">
+                  Lightoj
+                </a>
+                <a href="https://leetcode.com/u/nafis2000/" target="_blank" rel="noopener noreferrer" className="text-3xl text-blue-800">
+                <SiLeetcode />
+
+                </a>
+                
+               
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
                 <Slide>
