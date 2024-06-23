@@ -52,6 +52,7 @@ const Skills = () => {
                         <FaCode className="text-4xl mb-4 text-blue-600" />
                         <h4 className="text-xl font-bold mb-2">Frontend</h4>
                         <ul className="list-disc list-inside">
+                            <li>Next js</li>
                             <li>React</li>
                             <li>Tailwind CSS</li>
                             <li>Daisy UI</li>

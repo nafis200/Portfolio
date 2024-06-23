@@ -17,11 +17,11 @@ const Education = () => {
 
                 <div className="education-category bg-base-100 border-2 border-blue-400 hover:border-cyan-300 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:shadow-cyan-200 transition-shadow duration-300">
                     <FaSchool className='' />
-                    <h4 className="text-xl font-bold mb-2">Government Brajalal College, Khulna</h4>
+                    <h4 className="text-xl font-bold mb-2">Tamirul millat College, Dhaka</h4>
                     <p className="mb-2"><strong>Group:</strong> Science</p>
                     <p className="mb-2"><strong>Degree:</strong> Higher Secondary</p>
                     <p className="mb-2"><strong>Duration:</strong> 2017 - 2019</p>
-                    <p className="mb-2"><strong>Location:</strong> Khulna, Bangladesh</p>
+                    <p className="mb-2"><strong>Location:</strong> Dhaka, Bangladesh</p>
                 </div>
 
             </div>
