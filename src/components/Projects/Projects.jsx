@@ -13,23 +13,23 @@ const Projects = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <Zoom>
                     <div className="skill-category bg-base-100 border-2 border-blue-400 hover:border-cyan-300 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:shadow-cyan-200 transition-shadow duration-300">
-                        <h4 className="text-xl font-bold mb-2">Library Management System (Full Stack)</h4>
-                        <p className="mb-2"><strong>Live-link:</strong> <a href="https://library-management-f105d.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">library-management-f105d.web.app</a></p>
-                        <p className="mb-2"><strong>Client-side:</strong> <a href="https://github.com/Porgramming-Hero-web-course/b9a11-client-side-Rakesh01999" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
+                        <h4 className="text-xl font-bold mb-2">Online Survey (Full Stack)</h4>
+                        <p className="mb-2"><strong>Live-link:</strong> <a href="https://assignment-12-80409.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Online survey</a></p>
+                        <p className="mb-2"><strong>Client-side:</strong> <a href="https://github.com/programming-hero-web-course1/b9a12-client-side-nafis200" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
                         <p className="mb-2"><strong>Features:</strong></p>
                         <ul className="list-disc list-inside mb-2">
-                            <li>Book Management (CRUD)</li>
-                            <li>Detailed Book Information</li>
-                            <li>Token Authentication</li>
+                            <li>Implement a secure user authentication system using JWT tokens</li>
+                            <li>Role-based access control with multiple roles such as user, pro-user, admin, and surveyor.</li>
+                            <li>mplement fine-grained access control to specify who can view, edit, or manage surveys.</li>
                         </ul>
                         <p className="mb-2"><strong>Technology:</strong></p>
                         <p>Front-end: React.js, HTML, CSS, JavaScript, Axios, Tailwind CSS, Firebase</p>
                         <p>Back-end: Node.js, Express.js, MongoDB, JWT</p>
                         <div className="text-center flex justify-center space-x-4 mt-4">
-                            <a href="https://library-management-f105d.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+                            <a href="https://assignment-12-80409.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
                                 <FaExternalLinkAlt className="text-2xl" />
                             </a>
-                            <a href="https://github.com/Porgramming-Hero-web-course/b9a11-client-side-Rakesh01999" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+                            <a href="https://github.com/programming-hero-web-course1/b9a12-client-side-nafis200" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
                                 <FaGithub className="text-2xl" />
                             </a>
                         </div>
@@ -38,9 +38,34 @@ const Projects = () => {
 
                 <Zoom>
                     <div className="skill-category bg-base-100 border-2 border-blue-400 hover:border-cyan-300 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:shadow-cyan-200 transition-shadow duration-300">
+                        <h4 className="text-xl font-bold mb-2">Online Group-Study assignment (Full Stack)</h4>
+                        <p className="mb-2"><strong>Live-link:</strong> <a href="https://assignment-11-3c42f.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Online group study</a></p>
+                        <p className="mb-2"><strong>Client-side:</strong> <a href="https://github.com/nafis200/assignmnet11-client?tab=readme-ov-file" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
+                        <p className="mb-2"><strong>Features:</strong></p>
+                        <ul className="list-disc list-inside mb-2">
+                            <li>authentication base web site</li>
+                            <li>pagination</li>
+                            <li>includes Crud operation
+                            apply pagination</li>
+                        </ul>
+                        <p className="mb-2"><strong>Technology:</strong></p>
+                        <p>Front-end: React.js, HTML, CSS, JavaScript, Tailwind CSS, Firebase</p>
+                        <p>Back-end: Node.js, Express.js, MongoDB</p>
+                        <div className="text-center flex justify-center space-x-4 mt-4">
+                            <a href="https://assignment-11-3c42f.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+                                <FaExternalLinkAlt className="text-2xl" />
+                            </a>
+                            <a href="https://github.com/nafis200/assignmnet11-client?tab=readme-ov-file" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+                                <FaGithub className="text-2xl" />
+                            </a>
+                        </div>
+                    </div>
+                </Zoom>
+                <Zoom>
+                    <div className="skill-category bg-base-100 border-2 border-blue-400 hover:border-cyan-300 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:shadow-cyan-200 transition-shadow duration-300">
                         <h4 className="text-xl font-bold mb-2">Tourism Spot Management (Full Stack)</h4>
-                        <p className="mb-2"><strong>Live-link:</strong> <a href="https://real-estate-d06a5.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">real-estate-d06a5.web.app</a></p>
-                        <p className="mb-2"><strong>Client-side:</strong> <a href="https://github.com/programming-hero-web-course-4/B9A10-client-side-Rakesh01999" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
+                        <p className="mb-2"><strong>Live-link:</strong> <a href="https://assignment-10-4f92e.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Tourism spot</a></p>
+                        <p className="mb-2"><strong>Client-side:</strong> <a href="https://github.com/nafis200/assignmnet10-client" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
                         <p className="mb-2"><strong>Features:</strong></p>
                         <ul className="list-disc list-inside mb-2">
                             <li>Add, update place (CRUD)</li>
@@ -51,34 +76,10 @@ const Projects = () => {
                         <p>Front-end: React.js, HTML, CSS, JavaScript, Tailwind CSS, Firebase</p>
                         <p>Back-end: Node.js, Express.js, MongoDB</p>
                         <div className="text-center flex justify-center space-x-4 mt-4">
-                            <a href="https://real-estate-d06a5.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+                            <a href="https://assignment-10-4f92e.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
                                 <FaExternalLinkAlt className="text-2xl" />
                             </a>
-                            <a href="https://github.com/programming-hero-web-course-4/B9A10-client-side-Rakesh01999" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
-                                <FaGithub className="text-2xl" />
-                            </a>
-                        </div>
-                    </div>
-                </Zoom>
-
-                <Zoom>
-                    <div className="skill-category bg-base-100 border-2 border-blue-400 hover:border-cyan-300 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:shadow-cyan-200 transition-shadow duration-300">
-                        <h4 className="text-xl font-bold mb-2">Restaurant Management (React)</h4>
-                        <p className="mb-2"><strong>Live-link:</strong> <a href="https://react-spa-assignment-7.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">react-spa-assignment-7.netlify.app</a></p>
-                        <p className="mb-2"><strong>GitHub:</strong> <a href="https://github.com/programming-hero-web-course1/b9a7-chefs-table-Rakesh01999" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
-                        <p className="mb-2"><strong>Features:</strong></p>
-                        <ul className="list-disc list-inside mb-2">
-                            <li>Food adding</li>
-                            <li>Pending order display</li>
-                            <li>Calculating the calorie</li>
-                        </ul>
-                        <p className="mb-2"><strong>Technology:</strong></p>
-                        <p>Front-end: React.js, HTML, CSS, JavaScript, Tailwind CSS</p>
-                        <div className="text-center flex justify-center space-x-4 mt-4">
-                            <a href="https://react-spa-assignment-7.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
-                                <FaExternalLinkAlt className="text-2xl" />
-                            </a>
-                            <a href="https://github.com/programming-hero-web-course1/b9a7-chefs-table-Rakesh01999" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+                            <a href="https://github.com/nafis200/assignmnet10-client" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
                                 <FaGithub className="text-2xl" />
                             </a>
                         </div>
