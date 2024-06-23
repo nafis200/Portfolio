@@ -12,7 +12,7 @@ const Home = () => {
         <div className="mx-auto">
             {/* <h2>This is home</h2> */}
             <Helmet>
-                <title>Rakesh Biswas | Portfolio</title>
+                <title>Nafis ahamed | Portfolio</title>
             </Helmet>
             <Banner></Banner>
             <AboutMe></AboutMe>

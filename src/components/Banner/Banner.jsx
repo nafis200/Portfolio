@@ -4,9 +4,7 @@
 
 import 'animate.css';
 
-import photo from '../../assets/rk.png'
-import { Element } from 'react-scroll';
-import bannerImage from '../../assets/banner.png'
+
 import image1 from '../../../public/images/web-development1.png'
 import image2 from '../../../public/imgonline-com-ua-Transparent-background-dCx8Jbt05t (1).jpg'
 const Banner = () => {
