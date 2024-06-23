@@ -9,7 +9,7 @@ const Skills = () => {
     // console.log(theme);
     return (
         <div className="section skills-section mx-4 md:mx-10 lg:mx-14 mb-20" id="skills">
-            <h2 className="hover:text-blue-600 text-xl text-center md:text-[40px] text-cyan-400 font-bold mb-10"> Skills  </h2>
+            <h2 className="hover:text-blue-600 text-xl text-center md:text-[40px]  font-bold mb-10"> Skills  </h2>
             <h1 className="text-center">I solved almost 800+ problem in various judge such links</h1>
             <div className="flex justify-center items-center mt-2 space-x-6 mb-20">
                 <a href="https://codeforces.com/profile/nafis2000" target="_blank" rel="noopener noreferrer" className="text-3xl text-blue-600">

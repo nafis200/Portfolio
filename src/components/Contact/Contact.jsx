@@ -5,7 +5,7 @@ import { FaEnvelope, FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 const Contact = () => {
     return (
         <div className="section" id="contact">
-            <h2 className="hover:text-blue-600 text-xl text-center md:text-[40px] text-cyan-400 font-bold mb-10"> Contact  </h2>
+            <h2 className="hover:text-blue-600 text-xl text-center md:text-[40px]  font-bold mb-10"> Contact  </h2>
             <div className="flex justify-center items-center space-x-6 mb-20">
                 <a href="mailto:nafisahamed14@gmail.com" target="_blank" rel="noopener noreferrer" className="text-3xl text-blue-600">
                     <FaEnvelope />

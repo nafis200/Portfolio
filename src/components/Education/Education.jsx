@@ -4,7 +4,7 @@ import { FaSchool, FaUniversity } from 'react-icons/fa';
 const Education = () => {
     return (
         <div className="section education-section mx-auto md:mx-10 lg:mx-14  mb-20" id="education">
-            <h2 className="hover:text-blue-600 text-xl text-center md:text-[40px] text-cyan-400 font-bold mb-10"> Education </h2>
+            <h2 className="hover:text-blue-600 text-xl text-center md:text-[40px]  font-bold mb-10"> Education </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
                 <div className="education-category bg-base-100 border-2 border-blue-400 hover:border-cyan-300 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:shadow-cyan-200 transition-shadow duration-300">

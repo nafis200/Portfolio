@@ -7,7 +7,7 @@ const Projects = () => {
         <div className="section projects-section mx-4 md:mx-10 lg:mx-14 mb-20" id="projects">
             {/* <div className="section projects-section max-w-[370px] md:max-w-[540px] lg:max-w-[1540px] mx-auto mb-20" id="projects"> */}
             <Fade>
-                <h2 className="hover:text-blue-600 text-xl text-center md:text-[40px] text-cyan-400 font-bold mb-10"> Projects </h2>
+                <h2 className="hover:text-blue-600 text-xl text-center md:text-[40px]  font-bold mb-10"> Projects </h2>
             </Fade>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
